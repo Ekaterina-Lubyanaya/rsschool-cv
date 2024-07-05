@@ -1,0 +1,192 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.page {
+  margin: 0;
+  height: 100%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page__body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  font-size: 16px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.header {
+  background-color: azure;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-size: 20px;
+  color: rgb(19, 19, 122);
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 20px;
+  align-self: center;
+  font-size: 56px;
+  color: rgb(19, 19, 122);
+}
+
+.hero__descr {
+  margin: 0;
+  font-size: 40px;
+  color: rgb(19, 19, 122);
+}
+
+.hero__foto {
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.about-me {
+  color: #1b046d;
+  background-color: azure;
+}
+
+.text-descr {
+  margin: 0;
+  font-size: 20px;
+}
+
+.skils {
+  color: azure;
+  background-color: #1b046d;
+}
+
+
+
+.skils__item {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.skils__item:before {
+  content: "\2714";
+  color:azure;
+  font-weight: bold;
+  display: inline-block;
+  width: 30px;
+}
+
+.code {
+  color: #1b046d;
+  background-color: azure;
+}
+
+.code__descr {
+  font-size: 12px;
+}
+
+.contacts__item {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.contacts__item:before {
+  content: "\2714";
+  color:#1b046d;
+  font-weight: bold;
+  display: inline-block;
+  width: 30px;
+}
+
+.projects {
+  color: azure;
+  background-color: #1b046d;
+}
+
+.projects__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.projects__link {
+  width: 47%;
+}
+
+.projects__link:hover img {
+  transform: scale(1.03);
+}
+
+.contacts {
+  color: #1b046d;
+  background-color: azure;
+}
+
+.education {
+  color: azure;
+  background-color: #1b046d;
+}
+
+.rs_logo {
+  width: 150px;
+}
+
+.footer {
+  border-color: azure;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.footer__year {
+  font-size: 25px;
+color: #1b046d;
+}
