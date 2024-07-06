@@ -66,6 +66,10 @@ a {
   color: rgb(19, 19, 122);
 }
 
+.nav__item:hover {
+  transform: scale(1.1);
+}
+
 .hero__container {
   display: flex;
   flex-direction: column;
