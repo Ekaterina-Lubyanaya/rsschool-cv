@@ -1,0 +1,20 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/header-pets";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/our-friends";
+@import "./components/help";
+@import "./components/in-addition";
+@import "./components/footer";
+@import "./components/our-friends-pets";
+
+
+
+

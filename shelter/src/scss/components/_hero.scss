@@ -1,0 +1,49 @@
+.hero {
+  padding-top: 140px;
+  background-color: rgb(45, 38, 38);
+  background-image: url(../img/start-screen-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+  &__contanier {
+    display: flex;
+    background-image: url(../img/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 93% 100%;
+  }
+
+  &__content {
+    padding-top: 204px;
+    padding-bottom: 256px;
+
+  }
+
+
+
+  &__title {
+    margin: 0;
+    margin-bottom: 42px;
+    width: 34%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: var(--color-light-xl);
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 57px;
+    width: 45%;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+  }
+
+
+}
