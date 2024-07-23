@@ -1,1 +1,1 @@
- https://Ekaterina-Lubyanaya.github.io/shelter/
+ https://Ekaterina-Lubyanaya.github.io/shelter/shelter/
